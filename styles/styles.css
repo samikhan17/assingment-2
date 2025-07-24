@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+
+
+
+/* ****HEADER****  */
+
+/*     nav      */
+
+.first-nav{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content:space-between;
+    justify-items:center ;
+    gap: auto;
+    margin: auto;
+    margin-top: 30px;
+ 
+    
+    height: 85px;
+   
+}
+ul{
+    list-style: none;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+.four-menu{
+    display: flex;
+    gap: 48px;
+}
+.home{
+    color: rgba(37, 36, 50, 1);
+    font-size: 16px;
+    font-weight: bold;
+}
+.shop-aboutus{
+    color: rgba(137, 135, 161, 1);
+}
+
+/*      section    */ 
+
+.always-fresh{
+    width: 517px;
+    height: 89;
+    margin: none;
+    font-weight: bold;
+    font-size: 65px;
+   padding-bottom: 0;
+   margin: 0%;
+
+}
+.fresh-flower{
+     color: rgba(233, 90, 8, 1);
+}
+.fst-p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    padding-top: 0;
+    margin: 0%;
+}
+
+.second-nav{
+   
+    max-width: 1140px;
+    max-height: 461px;
+    display:flex;
+    align-items:last baseline;
+    justify-content:space-between;
+    justify-items:center ;
+    gap: auto;
+    margin: auto;
+    margin-top:109px;
+}
+.hero-flw{
+    margin: 0px;
+}
+.second-nav-1{
+    column-gap: none;
+    
+}
