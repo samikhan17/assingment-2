@@ -45,7 +45,7 @@ ul{
     color: rgba(137, 135, 161, 1);
 }
 
-/*      section    */ 
+/*      second-nav    */ 
 
 .always-fresh{
     width: 517px;
@@ -85,4 +85,79 @@ ul{
 .second-nav-1{
     column-gap: none;
     
+}
+/*   main   */
+main{
+    max-width: 1140px;
+    max-height: 1187px;
+    justify-items: center;
+    margin: 120px auto 0 auto;
+}
+.main-1{
+    justify-items: center;
+   
+}
+.nav-main{
+    column-gap: none;
+}
+.our-plant{
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+.our{
+    color: rgba(233, 90, 8, 1);
+}
+.snd-p{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 16px;
+    margin: 0 auto 44px auto;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+/*  flowers  */
+
+.flowers-containers{
+    width: 270px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.flowers-containers img{
+    width: 100%;
+    height: auto;
+}
+.flower-info{
+    margin-top: 10px;
+}
+.flowers-containers .flower-info button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    cursor: pointer;
+}
+.lily{
+    font-size: 22px;
+    color: rgba(17, 17, 17, 1);
+    font-weight: 400;
+
+}
+.usd{
+    font-weight: bold;
+    font-size: 22px;
+}
+.main-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
