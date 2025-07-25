@@ -25,7 +25,7 @@
     height: 85px;
    
 }
-ul{
+.four-menu{
     list-style: none;
 }
 .logo{
@@ -121,7 +121,7 @@ main{
     color: rgba(0, 0, 0, 0.5);
     
 }
-/*  flowers  */
+/*  flowers-carts  */
 
 .flowers-containers{
     width: 270px;
@@ -160,4 +160,145 @@ main{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+    padding-bottom: 0;
+}
+
+.flowers-lover{
+    font-weight: bold;
+    font-size: 50px;
+    justify-items: left;
+    
+}
+.plants-lover-list .lovers-list{
+    margin: 20px auto;
+}
+.plants-lover{
+    width: 1140px;
+    height: 597px;
+    display: flex;
+    gap: 60px;
+    align-items: center ;
+    text-align: justify;
+    justify-content: space-between;
+    margin: 210px auto 133px auto;
+}
+.plants-lover img{
+    height: 100%;
+}
+.lovers-list{
+    width: 540px;
+    height: 108px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*   latest section   */
+
+.latest-section{
+    max-width: 1140px;
+}
+
+ .flws-background{
+    text-align: center;
+ }
+
+ .shop-now-1{
+    background-color: none;
+ }
+
+ .absolute{
+    position: absolute;
+ }
+
+ .flws-shopping{
+    top: 65px;
+    left: 50px;
+    text-align: center;
+ }
+
+.flws-shopping h2{
+    width: 270px;
+    height: 27px;
+   
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+}
+
+.left-top{
+    width: 367px;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+     background-color: rgb(85, 81, 81);
+    background-image: url(../B12A02-Responsive-Flowers-main/assets/deal-bloom.png);
+   
+    border-radius: 14px;
+}
+.down-text{
+    padding: 60px;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.shop-1, .shop-2, .shop-3{
+    text-decoration: underline;
+
+}
+
+.left-down{
+     width: 367px;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+     background-color: rgb(85, 81, 81);
+    background-image: url(../B12A02-Responsive-Flowers-main/assets/deal-ana.png);
+    margin-top: 30px;
+    border-radius: 14px;
+}
+.left{
+    gap: 38px;
+}
+
+
+
+.shop-3{
+    font-size: 28px;
+    font-weight: 600;
+    width: 138px;
+    height: 20px;
+}
+
+.right .zabo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.right{
+    width: 754px;
+    height: 424px;
+    border-radius: 14px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-image: url(../B12A02-Responsive-Flowers-main/assets/deal-zabo.png)
+
+}
+
+.right-down-tex{
+    padding: 150px;
+    color: white;
+     align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.collab{
+    display: flex;
+    gap: 28px;
+    margin-top: 70px;
 }
